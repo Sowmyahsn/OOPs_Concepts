@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T13:44:55 EST" name="Test Suite" finished-at="2024-11-13T13:45:09 EST" duration-ms="13698">
+    <groups>
+    </groups>
+    <test started-at="2024-11-13T13:44:55 EST" name="Chrome Test" finished-at="2024-11-13T13:45:09 EST" duration-ms="13698">
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:44:55 EST" name="setUpTest" finished-at="2024-11-13T13:45:00 EST" duration-ms="4699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:00 EST" name="verifyLoginPageTitleTest" finished-at="2024-11-13T13:45:00 EST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:00 EST" name="tearDown" finished-at="2024-11-13T13:45:00 EST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:00 EST" name="setUpTest" finished-at="2024-11-13T13:45:04 EST" duration-ms="3650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="verifyLoginPageHeaderTest()[pri:2, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:04 EST" name="verifyLoginPageHeaderTest" finished-at="2024-11-13T13:45:04 EST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:04 EST" name="tearDown" finished-at="2024-11-13T13:45:04 EST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:04 EST" name="setUpTest" finished-at="2024-11-13T13:45:08 EST" duration-ms="3629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="doValidLoginTest()[pri:3, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:08 EST" name="doValidLoginTest" finished-at="2024-11-13T13:45:08 EST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doValidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.LoginTest@149dd36b]" started-at="2024-11-13T13:45:08 EST" name="tearDown" finished-at="2024-11-13T13:45:09 EST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>

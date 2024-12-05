@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" thread-count="2">
+  
+  <!-- Test to run on Chrome -->
+  <test name="Chrome Test" thread-count="1" parallel="methods"> <!-- Run tests for Chrome browser in parallel -->
+    <parameter name="browser" value="chrome"/> <!-- Parameter to specify Chrome browser -->
+    <classes>
+      <class name="com.tests.BaseTest"/> <!-- BaseTest class for initialization -->
+      <class name="com.tests.LoginTest"/> <!-- LoginTest class for running actual test cases -->
+    </classes>
+  </test>
+
+</suite>
+
+	
+ 
